@@ -12,21 +12,20 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-primary-subtle">
+    <nav class="navbar navbar-expand-lg bg-primary-subtle fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Kuncken</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarOne"
+                aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarOne">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#full1">Full 1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#full2">Full 2</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -34,16 +33,13 @@
                             Dropdown
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#full3">Full 3</a></li>
+                            <li><a class="dropdown-item" href="#full4">Full 4</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#full5">Full 5</a></li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
                 </ul>
                 <form class="d-flex" role="search">
@@ -54,7 +50,7 @@
         </div>
     </nav>
 
-    <nav class="navbar navbar-expand-lg bg-gradient">
+    <nav class="navbar navbar-expand-lg bg-gradient fixed-bottom">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html">Kuncken</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -68,36 +64,28 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                        <a class="nav-link" href="#row1">1</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        <a class="nav-link" href="#row2">2</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#row3">3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#row4">4</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#row5">5</a>
+                    </li>
+
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 
     <div class="container-fluid">
-        <div class="row">
+        <div id="row1" class="row">
             <div class="col-6">
                 <h1>Paragraph 1</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, officia. Quisquam ratione aut ad.
@@ -106,39 +94,104 @@
             </div>
             <div class="col-6">
                 <h1>Paragraph 2</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
             </div>
-            <div class="col-6">
+            <div id="full1" class="row">
+                <div class="col-12">
+                    <h1>Full Row 1</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi fuga recusandae rerum quaerat
+                        quod sed animi debitis. Minus laborum fugiat magni ab sed unde eos maxime. Ad culpa porro
+                        expedita!</h2>
+                </div>
+            </div>
+            <div id="row2" class="col-6">
                 <h1>Paragraph 3</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
             </div>
             <div class="col-6">
                 <h1>Paragraph 4</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
             </div>
-            <div class="col-6">
+            <div class="row">
+                <div id="full2" class="col-12">
+                    <h1>Full Row 2</h1>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt velit sapiente tempore
+                        perferendis error consequuntur dolorum ex nisi commodi qui necessitatibus, impedit autem,
+                        voluptatibus, exercitationem accusantium hic totam quibusdam nulla.
+                    </h2>
+                </div>
+            </div>
+            <div id="row3" class="col-6">
                 <h1>Paragraph 5</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
             </div>
             <div class="col-6">
                 <h1>Paragraph 6</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
             </div>
-            <div class="col-6">
+            <div class="row">
+                <div id="full3" class="col-12">
+                    <h1>Full Row 3</h1>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt velit sapiente tempore
+                        perferendis error consequuntur dolorum ex nisi commodi qui necessitatibus, impedit autem,
+                        voluptatibus, exercitationem accusantium hic totam quibusdam nulla.
+                    </h2>
+                </div>
+            </div>
+
+            <div id="row4" class="col-6">
                 <h1>Paragraph 7</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
             </div>
             <div class="col-6">
                 <h1>Paragraph 8</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
+
             </div>
-            <div class="col-6">
+            <div id="full4" class="row">
+                <div class="col-12">
+                    <h1>Full Row 4</h1>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt velit sapiente tempore
+                        perferendis error consequuntur dolorum ex nisi commodi qui necessitatibus, impedit autem,
+                        voluptatibus, exercitationem accusantium hic totam quibusdam nulla.
+                    </h2>
+                </div>
+            </div>
+
+            <div id="row5" class="col-6">
                 <h1>Paragraph 9</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
             </div>
             <div class="col-6">
                 <h1>Paragraph 10</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis possimus impedit exercitationem quaerat.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores dolorum fuga voluptatum officia
+                    architecto iste unde eligendi, et inventore voluptatem amet itaque cupiditate dolor ab reiciendis
+                    possimus impedit exercitationem quaerat.</p>
+            </div>
+            <div class="row">
+                <div id="full5" class="col-12">
+                    <h1>Full Row 5</h1>
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt velit sapiente tempore
+                        perferendis error consequuntur dolorum ex nisi commodi qui necessitatibus, impedit autem,
+                        voluptatibus, exercitationem accusantium hic totam quibusdam nulla.</h2>
+
+                </div>
             </div>
 
         </div>
